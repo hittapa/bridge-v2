@@ -181,7 +181,7 @@ export const BetaIcon: CustomSvgIconComponent = (props) => {
 };
 
 export const HokuBridgeLogoIcon: CustomSvgIconComponent = (props) => {
-  const scalingProps = getScalingProps(115, 23);
+  const scalingProps = getScalingProps(144, 27);
   return <SvgIcon component={HokuBridgeLogo} {...scalingProps} {...props} />;
 };
 
