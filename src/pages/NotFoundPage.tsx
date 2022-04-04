@@ -68,7 +68,7 @@ export const NotFoundPage: FunctionComponent<RouteComponentProps> = () => {
         >
           {t("navigation.404-message-1")}{" "}
           <Link color="primary" to="/" underline="hover">
-            RenBridge
+            HokuBridge
           </Link>{" "}
           - {t("navigation.404-message-or")}{" "}
           <Link

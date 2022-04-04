@@ -140,7 +140,7 @@ export const ReleaseProcessStep: FunctionComponent<RouteComponentProps> = ({
   }, [dispatch, sourceChain]);
 
   const handleWalletPickerOpen = useCallback(() => {
-    dispatch(setWalletPickerOpened(true));
+    // dispatch(setWalletPickerOpened(true));
   }, [dispatch]);
 
   const { enabledChains } = useMultiwallet();
@@ -204,7 +204,7 @@ export const ReleaseProcessStep: FunctionComponent<RouteComponentProps> = ({
                 <WalletConnectionProgress />
               </CenteringSpacedBox>
             </PaperSpacerWrapper>
-            <ActionButton onClick={handleWalletPickerOpen}>
+            <ActionButton onClick={() => {}}>
               Connect Wallet
             </ActionButton>
           </>
@@ -381,7 +381,7 @@ const ReleaseTransactionStatus: FunctionComponent<ReleaseTransactionStatusProps>
         />
       );
     case "srcConfirmed":
-      return <ProgressStatus reason="Submitting to RenVM" />;
+      return <ProgressStatus reason="Submitting to Hoku" />;
     case "accepted":
       return <ReleaseAcceptedStatus tx={current.context.tx} />;
     case "destInitiated":

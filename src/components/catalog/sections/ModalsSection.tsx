@@ -59,7 +59,7 @@ export const ModalsSection: FunctionComponent = () => {
             Limited wallet support
           </Typography>
           <Typography variant="body2" align="center" gutterBottom>
-            RenBridge has only been tested and confirmed working with some
+            HokuBridge has only been tested and confirmed working with some
             WalletConnect wallets.
           </Typography>
           <Typography variant="body2" align="center" gutterBottom>
@@ -124,9 +124,9 @@ export const ModalsSection: FunctionComponent = () => {
           activeStep={activeStep}
         />
       </BridgeModal>
-      <SubmitErrorDialog open={false} onAction={() => {}} />
-      <GeneralErrorDialog open={false} onAction={() => {}} />
-      <ExpiredErrorDialog open={false} onAction={() => {}} />
+      <SubmitErrorDialog open={false} onAction={() => { }} />
+      <GeneralErrorDialog open={false} onAction={() => { }} />
+      <ExpiredErrorDialog open={false} onAction={() => { }} />
     </Section>
   );
 };

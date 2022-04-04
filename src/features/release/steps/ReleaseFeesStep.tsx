@@ -138,7 +138,7 @@ export const ReleaseFeesStep: FunctionComponent<TxConfigurationStepProps> = ({
       }
     } else {
       setReleasingInitialized(false);
-      dispatch(setWalletPickerOpened(true));
+      // dispatch(setWalletPickerOpened(true));
     }
   }, [dispatch, canInitializeReleasing, walletConnected]);
 

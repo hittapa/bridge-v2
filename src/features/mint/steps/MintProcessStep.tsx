@@ -204,7 +204,7 @@ export const MintProcessStep: FunctionComponent<RouteComponentProps> = ({
   }, [dispatch, destChain, mintChainConfig.symbol]);
 
   const handleWalletPickerOpen = useCallback(() => {
-    dispatch(setWalletPickerOpened(true));
+    // dispatch(setWalletPickerOpened(true));
   }, [dispatch]);
 
   const onWarningClosed = useCallback(() => {
@@ -606,7 +606,7 @@ export const MintTransactionDepositStatus: FunctionComponent<MintTransactionDepo
     case "errorAccepting":
     case "errorSubmitting":
     case "claiming":
-    case "accepted": // RenVM accepted it, it can be submitted to ethereum
+    case "accepted": // Hoku accepted it, it can be submitted to ethereum
       return (
         <MintDepositAcceptedStatus
           tx={tx as ErroringGatewaySession<any>}

@@ -63,7 +63,7 @@ import { ReactComponent as QrCode } from "./../../assets/icons/qr-code.svg";
 import { ReactComponent as RenLogo } from "./../../assets/icons/ren-logo.svg";
 import { ReactComponent as RenLogo3F } from "./../../assets/icons/ren-logo-3f.svg";
 import { ReactComponent as RenVMLogo } from "./../../assets/icons/renvm-logo.svg";
-import { ReactComponent as RenBridgeLogo } from "./../../assets/icons/renbridge-logo.svg";
+import { ReactComponent as HokuBridgeLogo } from "./../../assets/icons/hokubridge-logo.svg";
 import { ReactComponent as Success } from "./../../assets/icons/success-icon.svg";
 import { ReactComponent as SpecialAlert } from "./../../assets/icons/specialalert-icon.svg";
 import { ReactComponent as Tooltip } from "./../../assets/icons/tooltip.svg";
@@ -180,9 +180,9 @@ export const BetaIcon: CustomSvgIconComponent = (props) => {
   return <SvgIcon component={Beta} {...scalingProps} {...props} />;
 };
 
-export const RenBridgeLogoIcon: CustomSvgIconComponent = (props) => {
+export const HokuBridgeLogoIcon: CustomSvgIconComponent = (props) => {
   const scalingProps = getScalingProps(115, 23);
-  return <SvgIcon component={RenBridgeLogo} {...scalingProps} {...props} />;
+  return <SvgIcon component={HokuBridgeLogo} {...scalingProps} {...props} />;
 };
 
 export const RenLogoIcon: CustomSvgIconComponent = (props) => {

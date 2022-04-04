@@ -142,7 +142,7 @@ export const MintTransactionHistory: FunctionComponent = () => {
   }, []);
 
   const handleWalletPickerOpen = useCallback(() => {
-    dispatch(setWalletPickerOpened(true));
+    // dispatch(setWalletPickerOpened(true));
   }, [dispatch]);
 
   const handleTxHistoryClose = useCallback(() => {

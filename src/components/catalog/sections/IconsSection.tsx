@@ -53,7 +53,7 @@ import {
   PolygonCircleIcon,
   PolygonFullIcon,
   PolygonGreyIcon,
-  RenBridgeLogoIcon,
+  HokuBridgeLogoIcon,
   RenLogoFullIcon,
   RenLogoIcon,
   RenVMLogoIcon,
@@ -160,7 +160,7 @@ export const IconsSection: FunctionComponent = () => {
         <FilGreyIcon />
       </SeparationWrapper>
       <SeparationWrapper>
-        <RenBridgeLogoIcon />
+        <HokuBridgeLogoIcon />
         <RenLogoFullIcon />
         <RenVMLogoIcon />
         <Box bgcolor="gray" display="inline-block" p={1}>

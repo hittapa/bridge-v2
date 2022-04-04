@@ -51,13 +51,13 @@ Alternatively you can use [i18next-parser](https://github.com/i18next/i18next-pa
 
 The app was build on top of [CRA](https://reactjs.org/docs/create-a-new-react-app.html), [Material-UI](https://material-ui.com/) with [redux-toolkit](https://redux-toolkit.js.org/) for shared state management.
 
-The core RenVM libraries on which the application is built are as follows:
+The core Hoku libraries on which the application is built are as follows:
 
 [`@renproject/multiwallet-ui`](https://www.npmjs.com/package/@renproject/multiwallet-ui) - provides extensible wallet selection, connection and management features for React apps. It comes together with default UI, but can be adapted to any React UI framework.
 
 [`@renproject/rentx`](https://www.npmjs.com/package/@renproject/rentx) - RenTX is for managing transactions. Allows transactions state tracing and makes it easier to build UI for appropriate transaction stages.
 
-[`@renproject/ren`](https://www.npmjs.com/package/@renproject/ren) - RenJS is the core library for interacting with RenVM. RenTX uses it internally. Bridge uses it for things such as fees calculation.
+[`@renproject/ren`](https://www.npmjs.com/package/@renproject/ren) - RenJS is the core library for interacting with Hoku. RenTX uses it internally. Bridge uses it for things such as fees calculation.
 
 ## Forking
 

@@ -279,7 +279,7 @@ export const getRenExplorerLink = (
     depositHash !== "" && depositHash !== "gateway"
       ? `#/tx/${depositHash}`
       : "";
-  return `https://${networkSubdomain}.renproject.io/${txPart}`;
+  return '';
 };
 
 type GetFeeTooltipsArgs = {

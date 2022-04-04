@@ -202,7 +202,7 @@ export const MintFeesStep: FunctionComponent<TxConfigurationStepProps> = ({
     } else {
       setTouched(false);
       setMintingInitialized(false);
-      dispatch(setWalletPickerOpened(true));
+      // dispatch(setWalletPickerOpened(true));
     }
   }, [
     dispatch,

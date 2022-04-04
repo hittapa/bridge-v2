@@ -104,9 +104,9 @@ i18n.init({
       return value;
     },
     defaultVariables: {
-      bridge: "RenBridge",
-      renvm: "RenVM",
-      renexplorer: "RenVM Explorer",
+      bridge: "HokuBridge",
+      renvm: "Hoku",
+      renexplorer: "Hoku Explorer",
     },
   },
   backend: backendOptions as any,

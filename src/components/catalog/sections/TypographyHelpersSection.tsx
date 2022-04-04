@@ -43,8 +43,8 @@ export const TypographyHelpersSection: FunctionComponent = () => {
           Fees
         </Typography>
         <LabelWithValue
-          label="RenVM Fee"
-          labelTooltip="Explaining RenVM Fee"
+          label="Hoku Fee"
+          labelTooltip="Explaining Hoku Fee"
           value="0.10%"
           valueEquivalent="$11.80"
         />

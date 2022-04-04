@@ -192,7 +192,7 @@ export const walletPickerModalConfig = (network: RenNetwork) => {
             providerURL: (window as any).solana || "https://www.phantom.app",
             clusterURL:
               network === RenNetwork.Mainnet
-                ? "https://ren.rpcpool.com/"
+                ? "https://hoku.rpcpool.com/"
                 : undefined,
             network,
           }),
@@ -204,7 +204,7 @@ export const walletPickerModalConfig = (network: RenNetwork) => {
             providerURL: "https://www.sollet.io",
             clusterURL:
               network === RenNetwork.Mainnet
-                ? "https://ren.rpcpool.com/"
+                ? "https://hoku.rpcpool.com/"
                 : undefined,
             network,
           }),

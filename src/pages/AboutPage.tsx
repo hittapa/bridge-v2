@@ -82,15 +82,6 @@ const AboutPage: FunctionComponent<RouteComponentProps> = () => {
           </Link>{" "}
           {t("about.safety-description-2")}
         </Typography>
-        <div className={styles.logos}>
-          <span className={styles.ren}>
-            <RenLogoFullIcon fontSize="inherit" />
-          </span>
-
-          <span className={styles.renVM}>
-            <RenVMLogoIcon fontSize="inherit" />
-          </span>
-        </div>
       </Container>
     </MobileLayout>
   );

@@ -490,7 +490,7 @@ const useBackToWalletPicker = (onClose: () => void) => {
   const handleBackToWalletPicker = useCallback(() => {
     onClose();
     setTimeout(() => {
-      dispatch(setWalletPickerOpened(true));
+      // dispatch(setWalletPickerOpened(true));
     }, 1);
   }, [dispatch, onClose]);
   return handleBackToWalletPicker;

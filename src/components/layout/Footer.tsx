@@ -105,17 +105,17 @@ export const Footer: FunctionComponent<FooterProps> = ({ mobile }) => {
           </FooterTextLink>
         </li>
         <li>
-          <FooterTextLink href={links.DOCS} target="_blank">
+          <FooterTextLink href={links.DOCS} target="_self">
             {t("navigation.docs-label")}
           </FooterTextLink>
         </li>
         <li>
-          <FooterTextLink href={links.FAQ} target="_blank">
+          <FooterTextLink href={links.FAQ} target="_self">
             {t("navigation.faqs-label")}
           </FooterTextLink>
         </li>
         <li>
-          <FooterTextLink href={links.WIKI} target="_blank">
+          <FooterTextLink href={links.WIKI} target="_self">
             {t("navigation.wiki-label")}
           </FooterTextLink>
         </li>
@@ -128,22 +128,22 @@ export const Footer: FunctionComponent<FooterProps> = ({ mobile }) => {
       </ul>
       <ul className={styles.iconLinks}>
         <li>
-          <FooterIconLink href={links.SOCIAL_TWITTER} target="_blank">
+          <FooterIconLink href={links.SOCIAL_TWITTER} target="_self">
             <TwitterIcon fontSize="inherit" />
           </FooterIconLink>
         </li>
         <li>
-          <FooterIconLink href={links.SOCIAL_GITHUB} target="_blank">
+          <FooterIconLink href={links.SOCIAL_GITHUB} target="_self">
             <GitHubIcon fontSize="inherit" />
           </FooterIconLink>
         </li>
         <li>
-          <FooterIconLink href={links.SOCIAL_TELEGRAM} target="_blank">
+          <FooterIconLink href={links.SOCIAL_TELEGRAM} target="_self">
             <TelegramIcon fontSize="inherit" />
           </FooterIconLink>
         </li>
         <li>
-          <FooterIconLink href={links.SOCIAL_REDDIT} target="_blank">
+          <FooterIconLink href={links.SOCIAL_REDDIT} target="_self">
             <RedditIcon fontSize="inherit" />
           </FooterIconLink>
         </li>

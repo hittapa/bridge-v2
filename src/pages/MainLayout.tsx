@@ -29,7 +29,7 @@ import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import { useWindowSize } from "react-use";
 import { ClosableMenuIconButton } from "../components/buttons/Buttons";
-import { RenBridgeLogoIcon, TxHistoryIcon } from "../components/icons/RenIcons";
+import { HokuBridgeLogoIcon, TxHistoryIcon } from "../components/icons/RenIcons";
 import { Footer } from "../components/layout/Footer";
 import {
   MainLayoutVariantProps,
@@ -127,7 +127,7 @@ export const MainLayout: FunctionComponent<MainLayoutVariantProps> = ({
       if (walletConnected) {
         setWalletMenuAnchor(event.currentTarget);
       } else {
-        dispatch(setWalletPickerOpened(true));
+        // dispatch(setWalletPickerOpened(true));
       }
     },
     [dispatch, walletConnected]
@@ -210,7 +210,7 @@ export const MainLayout: FunctionComponent<MainLayoutVariantProps> = ({
       PaperProps={{ className: styles.drawerPaper }}
     >
       <div className={styles.drawerHeader}>
-        <RenBridgeLogoIcon className={styles.drawerLogo} />
+        <HokuBridgeLogoIcon className={styles.drawerLogo} />
         <IconButton
           aria-label="close"
           className={styles.drawerClose}

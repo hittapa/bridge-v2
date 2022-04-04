@@ -14,7 +14,7 @@ export const ExampleContent: FunctionComponent = () => {
         Limited wallet support
       </Typography>
       <Typography variant="body2" align="center" gutterBottom>
-        RenBridge has only been tested and confirmed working with some
+        HokuBridge has only been tested and confirmed working with some
         WalletConnect wallets.
       </Typography>
       <Typography variant="body2" align="center" gutterBottom>

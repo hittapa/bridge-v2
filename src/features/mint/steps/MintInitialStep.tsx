@@ -55,7 +55,7 @@ export const MintInitialStep: FunctionComponent<TxConfigurationStepProps> = ({
 
   const handleNextStep = useCallback(() => {
     if (!walletConnected) {
-      dispatch(setWalletPickerOpened(true));
+      // dispatch(setWalletPickerOpened(true));
     } else {
       if (onNext) {
         onNext();

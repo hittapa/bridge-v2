@@ -174,7 +174,7 @@ export const ReleaseInitialStep: FunctionComponent<TxConfigurationStepProps> = (
 
   const handleNextStep = useCallback(() => {
     if (!walletConnected) {
-      dispatch(setWalletPickerOpened(true));
+      // dispatch(setWalletPickerOpened(true));
     }
     if (onNext && basicCondition && hasBalance) {
       onNext();

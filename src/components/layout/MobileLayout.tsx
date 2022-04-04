@@ -1,11 +1,11 @@
-import { Container, Grid } from "@material-ui/core";
+import { Container, Grid, Typography } from "@material-ui/core";
 import AppBar from "@material-ui/core/AppBar";
 import { makeStyles, Theme } from "@material-ui/core/styles";
 import Toolbar from "@material-ui/core/Toolbar";
 import React, { FunctionComponent, ReactNode, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HomeMenuIconButton } from "../buttons/Buttons";
-import { BetaIcon, RenBridgeLogoIcon } from "../icons/RenIcons";
+import { BetaIcon, HokuBridgeLogoIcon } from "../icons/RenIcons";
 import { Footer } from "./Footer";
 
 const headerHeight = 82;
@@ -26,6 +26,10 @@ export const useMobileLayoutStyles = makeStyles((theme: Theme) => ({
     display: "flex",
     alignItems: "center",
     marginRight: 40,
+    '& a': {
+      textDecoration: 'unset',
+      color: 'black'
+    }
   },
   beta: {
     marginLeft: 8,
@@ -140,7 +144,7 @@ export const MobileLayout: FunctionComponent<MobileLayoutProps> = ({
               <Toolbar disableGutters>
                 <div className={styles.logo}>
                   <Link to="/">
-                    <RenBridgeLogoIcon />
+                    <HokuBridgeLogoIcon />
                   </Link>
                   <BetaIcon className={styles.beta} />
                 </div>
