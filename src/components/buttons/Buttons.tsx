@@ -479,7 +479,13 @@ export const ClosableMenuIconButton: FunctionComponent<ClosableMenuIconButtonPro
 };
 
 const useActionButtonStyles = makeStyles({
-  root: { maxWidth: 360 },
+  root: {
+    maxWidth: 360,
+    background: '#063971',
+    '&:hover': {
+      background: '#063981',
+    }
+  },
 });
 
 export const ActionButton: FunctionComponent<ButtonProps> = ({
