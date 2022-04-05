@@ -48,7 +48,7 @@ export const white = "#FFFFFF";
 export const whiteDarker = "#FDFDFD";
 export const black = "#001B3A";
 
-export const strokeDefault = "#e6e2ff";
+export const strokeDefault = "#ffffff";
 
 export const alertWarning = "#AD5700";
 export const alertWarningBackground = "#FBF3E9";
