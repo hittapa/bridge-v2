@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
   description: {
     marginTop: 24,
     textAlign: "center",
-    color: theme.customColors.textLight,
+    color: theme.palette.text.secondary,
   },
   button: {
     maxWidth: 400,

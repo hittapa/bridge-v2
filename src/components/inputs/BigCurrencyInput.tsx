@@ -41,6 +41,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     border: "0px solid transparent",
     color: theme.customColors.textDark,
+    background: '#525252',
     ...generatePlaceholderStyles(theme.customColors.grayPlaceholder),
   },
   inputError: {
@@ -52,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
   },
   equivalent: {
     marginTop: 0,
-    color: "#3F3F48",
+    color: theme.palette.common.white,
   },
 }));
 

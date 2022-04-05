@@ -28,9 +28,9 @@ export const greenLight = "#3CBC98";
 export const green = "#34A384";
 export const greenDark = "#2C8A6F";
 
-export const textDark = "#3F3F48";
-export const textLight = "#6B6D70";
-export const textLighter = "#87888C";
+export const textDark = "#bec2c8";
+export const textLight = "#dfd6e0";
+export const textLighter = "#dcdcdc";
 export const textDisabled = "#DCE0E3";
 
 export const grayDisabled = "#c1c2c4";
@@ -38,7 +38,7 @@ export const grayLight = "#EBEDF2";
 export const gray = "#D2D4D9";
 export const grayDark = "#D2D4D9";
 export const grayPlaceholder = "#D0D2D9";
-export const greyHeaderBackground = "#FBFBFC";
+export const greyHeaderBackground = "#11112d";
 
 export const backgroundDefault = "#FBFBFB";
 export const backgroundWhite = "#FFFFFF";
@@ -48,7 +48,7 @@ export const white = "#FFFFFF";
 export const whiteDarker = "#FDFDFD";
 export const black = "#001B3A";
 
-export const strokeDefault = "#DBE0E8";
+export const strokeDefault = "#e6e2ff";
 
 export const alertWarning = "#AD5700";
 export const alertWarningBackground = "#FBF3E9";

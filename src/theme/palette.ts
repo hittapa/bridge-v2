@@ -6,9 +6,11 @@ import {
   graphite,
   graphiteDark,
   graphiteLight,
+  grayDark,
   strokeDefault,
   textDark,
   textDisabled,
+  textLight,
   textLighter,
   white,
 } from './colors'
@@ -27,8 +29,8 @@ const basePalette = {
     contrastText: white,
   },
   text: {
-    primary: textDark,
-    secondary: textLighter,
+    primary: textLighter,
+    secondary: textDark,
     disabled: textDisabled,
     hint: textDisabled,
   },

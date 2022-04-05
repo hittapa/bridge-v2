@@ -9,7 +9,7 @@ import { NotificationsProvider } from "./providers/Notifications";
 import { TitleProviders } from "./providers/TitleProviders";
 import * as serviceWorker from "./serviceWorker";
 import store from "./store/store";
-import { lightTheme } from "./theme/theme";
+import { lightTheme, darkTheme } from "./theme/theme";
 import "./i18n/i18n";
 import * as Sentry from "@sentry/react";
 
@@ -37,7 +37,7 @@ const render = () => {
   const App = require("./App").default;
   ReactDOM.render(
     <Provider store={store}>
-      <MuiThemeProvider theme={lightTheme}>
+      <MuiThemeProvider theme={darkTheme}>
         <TitleProviders>
           <NotificationsProvider>
             <App />

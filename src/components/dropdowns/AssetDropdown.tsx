@@ -52,6 +52,12 @@ const useCondensedSelectStyles = makeStyles(() => ({
     paddingTop: 4,
     paddingBottom: 4,
   },
+  inputRoot: {
+    width: "100%",
+    '& .MuiSelect-outlined': {
+      background: '#29415c'
+    }
+  },
 }));
 
 const useAssetDropdownStyles = makeStyles((theme) => ({
@@ -62,6 +68,9 @@ const useAssetDropdownStyles = makeStyles((theme) => ({
   },
   inputRoot: {
     width: "100%",
+    '& .MuiSelect-outlined': {
+      background: '#525252'
+    }
   },
   supplementalText: {
     fontSize: 12,
@@ -142,7 +151,7 @@ export const AssetDropdown: FunctionComponent<AssetDropdownProps> = ({
       const selected = getOptionBySymbol(value, mode);
       const { Icon, full, short } = getAssetData(selected);
       return (
-        <Box display="flex" alignItems="center" width="100%">
+        <Box display="flex" alignItems="center" width="100%" >
           {!condensed && (
             <Box width="37%">
               <Typography variant="body2" className={styles.supplementalText}>
@@ -167,7 +176,7 @@ export const AssetDropdown: FunctionComponent<AssetDropdownProps> = ({
     <div>
       <Select
         variant="outlined"
-        className={condensed ? undefined : styles.inputRoot}
+        className={condensed ? condensedSelectClasses.inputRoot : styles.inputRoot}
         classes={condensed ? condensedSelectClasses : undefined}
         renderValue={valueRenderer}
         displayEmpty

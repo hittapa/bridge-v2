@@ -13,7 +13,7 @@ const useSpecialInfoStyles = makeStyles((theme) => ({
   root: {
     width: "auto",
     color: theme.palette.text.primary,
-    background: theme.palette.common.white,
+    background: theme.palette.common.black,
     border: `1px solid ${theme.palette.divider}`,
     boxShadow: "none",
   },

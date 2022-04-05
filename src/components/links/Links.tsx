@@ -4,6 +4,7 @@ import {
   Link as RouterLink,
   LinkProps as RouterLinkProps,
 } from "react-router-dom";
+import {blueLight} from '../../theme/colors';
 
 export const externalLinkAttributes = {
   target: "_blank",
@@ -43,7 +44,7 @@ export const Link: FunctionComponent<CustomLinkProps> = ({
     );
   }
   return (
-    <MuiLink target={target} {...rest} {...additionalParams}>
+    <MuiLink target={target} {...rest} {...additionalParams} color='textPrimary' >
       {children}
       {external && " ↗"}
     </MuiLink>

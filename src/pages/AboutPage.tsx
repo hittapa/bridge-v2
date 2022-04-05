@@ -17,9 +17,11 @@ const useStyles = makeStyles((theme) => ({
   heading: {
     fontSize: 24,
     marginBottom: 20,
+    color: theme.palette.text.primary
   },
   description: {
     marginBottom: 20,
+    color: theme.palette.text.primary
   },
   logos: {
     marginTop: 48,

@@ -94,7 +94,7 @@ const usePaperContentStyles = makeStyles<Theme, PaperContentProps>((theme) => ({
   darker: {
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
-    backgroundColor: theme.customColors.whiteDarker,
+    backgroundColor: theme.customColors.black,
   },
 }));
 

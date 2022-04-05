@@ -31,7 +31,7 @@ const useTransactionsHeaderStyles = makeStyles((theme) => ({
     paddingTop: 22,
     paddingBottom: 18,
     borderBottom: `1px solid ${theme.palette.divider}`,
-    background: theme.palette.common.white,
+    background: theme.customColors.greyHeaderBackground,
     boxShadow: standardShadow,
     display: "flex",
     justifyContent: "flex-start",
